@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Rendue de devoirs</h1>
+        <button class="add btn-0">Ajouter un devoir</button>
+
+    </header>
+    <main>
+        <section class="modal">
+            <button class="no-submit btn-3">X</button>
+            <form class="form" action="">
+
+                <label for="Nom">Nom du devoir</label>
+                <label for="matiere">Matière</label>
+                <select name="matiere" id="matiere">
+                    <option value="Codage">Codage</option>
+                    <option value="Design">Design</option>
+                    <option value="Audio-visuel">Audio-visuel</option>
+                    <option value="Communication">Communication</option>
+                </select>
+
+                <label for="date">Date de rendu</label>
+                <input type="date" name="date" id="date">
+                <label for="description">Description</label>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                <button class="btn-1" id="submit">Ajouter</button>
+            </form>
+        </section>
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <th>Titre</th>
+                    <th>Matière</th>
+                    <th>Description</th>
+                    <th>Date de rendu</th>
+                    <th>Devoir fait</th>
+                    <th>Supprimer</th>
+                </tr>
+            </thead>
+        </table>
+
+        <tbody>
+
+        </tbody>
+
+
+
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
